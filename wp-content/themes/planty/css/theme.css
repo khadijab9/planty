@@ -12,14 +12,22 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 }
 
-.navbar-nav {
+.navbar ul{
     display: flex;
-    margin-right: 30px;
-    
-    
+    margin-right: 20px;
     
 }
+
+
+
+
+
+    
+    
+    
+
+
