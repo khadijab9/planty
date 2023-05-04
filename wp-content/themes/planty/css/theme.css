@@ -1,5 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 
-body * {
+:root  {
     font-family: 'Syne', sans-serif;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 10px;
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-nav {
+    display: flex;
+    margin-right: 30px;
+    
+    
+    
 }
