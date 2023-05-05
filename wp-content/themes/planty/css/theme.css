@@ -4,23 +4,28 @@
     font-family: 'Syne', sans-serif;
 }
 
-.logo{
+#logo{
     height: 30px;
     margin-left: 10px;
 
 }
 
-.navbar {
+#menu{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.navbar ul{
+.navbar-nav {
     display: flex;
-    margin-right: 20px;
     
 }
+
+.mr-auto{
+
+
+}
+
 
 
 
