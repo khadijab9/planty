@@ -24,22 +24,33 @@
     
 }
 
-.menu-item a{
+.navbar-nav a{
     text-decoration: none;
     color: black;
     padding: 30px;
+   
 
 
 }
 
-.menu-item a:hover{
+.my-custom-menu-item  a{
     background-color: #DC9F96;
     color: white;
-    
+   
+;
 }
+    
+    
+    
+    
 
-.footer {
-    align-items: c;
+#footer a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: black;
+    
+    
 }
 
 
