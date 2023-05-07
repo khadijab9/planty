@@ -27,7 +27,7 @@
 .navbar-nav a{
     text-decoration: none;
     color: black;
-    padding: 30px;
+    margin: 25px;
    
 
 
@@ -36,6 +36,9 @@
 .my-custom-menu-item  a{
     background-color: #DC9F96;
     color: white;
+    padding: 25px;
+    margin-right: 0px
+    
    
 ;
 }
@@ -45,13 +48,35 @@
     
 
 #footer a{
-    justify-content: center;
-    display: flex;
     text-decoration: none;
     color: black;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    text-align: center;
+    padding: 10px;
+    
     
     
 }
+
+
+    
+
+
+
+@media (max-width: 900px){
+    .navbar-nav {
+    display: absolute;
+    flex-direction: column;
+    
+}
+
+
+}
+
+
 
 
 
