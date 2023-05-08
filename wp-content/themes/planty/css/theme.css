@@ -21,6 +21,7 @@
 
 .navbar-nav {
     display: flex;
+    background: 
     
 }
 
@@ -37,14 +38,9 @@
     background-color: #DC9F96;
     color: white;
     padding: 25px;
-    margin-right: 0px
+    margin-right: 0px;
     
-   
-;
 }
-    
-    
-    
     
 
 #footer a{
@@ -62,18 +58,38 @@
 }
 
 
-    
-
-
 
 @media (max-width: 900px){
     .navbar-nav {
-    display: absolute;
+    
     flex-direction: column;
+    align-items: center;
+    padding-top: 20PX;
+    font-size: 20px;
+    
+    
     
 }
 
+    .navbar-nav a{
+        
+        margin: 30PX 0;
+       
+        
+        ;
+    }
 
+    .my-custom-menu-item  a{
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+    
+    
+            }
+            .my-custom-menu-item{
+                padding-top: 30px;
+            }
+        
 }
 
 

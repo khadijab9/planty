@@ -26,3 +26,14 @@ function add_custom_class_to_menu_item( $classes, $item, $args ) {
    return $classes;
 }
 add_filter( 'nav_menu_css_class', 'add_custom_class_to_menu_item', 10, 3 );
+
+//
+add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
+function add_extra_item_to_nav_menu( $items, $args ) {
+   // verifie si l'utilisateur est connecté//
+    if (is_user_logged_in() && $args->menu == 303) {
+        $items .= '<li><a href="'. get_permalink( get_option('wp_myaccount_page_id') ) .'">Admin</a></li>';
+    }
+
+    return $items;
+}
