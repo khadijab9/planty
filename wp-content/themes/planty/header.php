@@ -13,12 +13,13 @@
 
 
 <nav class=nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
-
-    <img id=logo src="wp-content/themes/planty/image/logo.png" alt="logo du site"> </a>
+<div class=logo-image> 
+<img id=logo src="<?php echo get_template_directory_uri();?>/planty/image/logo.png" alt="logo du site">
+</div>
 <?php wp_nav_menu( array( 
     'theme_location' => 'main-menu', 
-    'link_before' => '<span itemprop="name">', 
-    'link_after' => '</span>' ,
+    'link_before' => '', 
+    'link_after' => '' ,
     'menu_class' => 'navbar-nav mr-auto',
     ) )
     ; ?>

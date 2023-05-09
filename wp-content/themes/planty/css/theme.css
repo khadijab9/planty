@@ -21,7 +21,7 @@
 
 .navbar-nav {
     display: flex;
-    background: 
+    background: blue;
     
 }
 
@@ -34,10 +34,12 @@
 
 }
 
+
+
 .my-custom-menu-item  a{
     background-color: #DC9F96;
     color: white;
-    padding: 25px;
+    margin: 25px;
     margin-right: 0px;
     
 }
@@ -46,14 +48,10 @@
 #footer a{
     text-decoration: none;
     color: black;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 100px;
-    text-align: center;
-    padding: 10px;
-    
-    
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px ;
+ 
     
 }
 
@@ -62,21 +60,44 @@
 @media (max-width: 900px){
     .navbar-nav {
     
-    flex-direction: column;
+    
     align-items: center;
     padding-top: 20PX;
     font-size: 20px;
     
     
-    
 }
+
+.logo-image{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav {
+    flex-wrap: wrap;
+}
+.menu-navigation-container{
+    width: 100%;
+}
+
+.menu-navigation-container ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.menu-item-home a{
+    margin-left: 20px !important;}
 
     .navbar-nav a{
         
-        margin: 30PX 0;
-       
+        margin: 30px 0 0 20;
+               
         
-        ;
+
     }
 
     .my-custom-menu-item  a{
