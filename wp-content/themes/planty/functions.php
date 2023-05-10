@@ -27,6 +27,10 @@ function add_custom_class_to_menu_item( $classes, $item, $args ) {
 }
 add_filter( 'nav_menu_css_class', 'add_custom_class_to_menu_item', 10, 3 );
 
+
+
+
+
 //
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {

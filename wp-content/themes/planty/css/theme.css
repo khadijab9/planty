@@ -37,10 +37,8 @@
 
 
 .my-custom-menu-item  a{
-    background-color: #DC9F96;
     color: white;
-    margin: 25px;
-    margin-right: 0px;
+;
     
 }
     
@@ -50,8 +48,8 @@
     color: black;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px ;
- 
+    padding: 10px ;
+    padding-bottom: 20px;
     
 }
 
@@ -61,11 +59,16 @@
     .navbar-nav {
     
     
-    align-items: center;
-    padding-top: 20PX;
-    font-size: 20px;
     
     
+    
+    padding: 15px;
+    
+    
+}
+
+.menu-navigation-container  a{
+
 }
 
 .logo-image{
@@ -76,6 +79,7 @@
 
 .nav {
     flex-wrap: wrap;
+    padding-top: 10px;
 }
 .menu-navigation-container{
     width: 100%;
@@ -86,11 +90,13 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    margin-bottom: 20px;
+
 }
 
 
 .menu-item-home a{
-    margin-left: 20px !important;}
+    margin-left: 28px !important;}
 
     .navbar-nav a{
         
@@ -108,7 +114,7 @@
     
             }
             .my-custom-menu-item{
-                padding-top: 30px;
+                padding-top: px;
             }
         
 }
