@@ -53,13 +53,14 @@
     
 }
 
+
+
+/* contact form 7 contact */
 .wpcf7 p {
-    
     padding-bottom: 35px;
     font-size: 25px;
     
 }
-
 
 .wpcf7 .wpcf7-form-control {
     margin-top: 20px;
@@ -70,18 +71,51 @@
     
 }
 
-
-
-
 .wpcf7 .wpcf7-submit {
     padding: 15px 50px 15px 50px;
     background: #E0B9B4;
     color: white;
-    widows: 35%;
+    width: 40%;
     margin-top: -10px; 
-
-}
+    text-align: center;
     
+}
+
+/* wp cf7 formulaire de commande */
+.wpcf7 .container-form {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+
+
+}  
+
+.wpcf7 .container-form h2{
+    font-size: 35px;
+    margin-bottom: 40px ;
+    font-weight: bold;
+}
+
+.wpcf7 .container-form .bloc1 {
+    width: 40%;
+   
+}
+.wpcf7 .container-form .bloc2 {
+    width: 40%;
+} 
+
+.wpcf7 .container-form .bloc1 .bloc2{
+    border: 4px white;
+}
+
+.wpcf7 .wpsubmit{
+    padding: 15px 30px 15px 30px;
+
+    text-align: center;
+    
+    
+}
+
 
 
 

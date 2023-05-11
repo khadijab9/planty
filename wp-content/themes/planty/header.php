@@ -14,7 +14,10 @@
 
 <nav class=nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 <div class=logo-image> 
-<img id=logo src="<?php echo get_template_directory_uri()."/planty/image/logo.png" ?>">
+
+<a href="<?php echo home_url();?>" >
+<img id=logo src="<?php echo get_template_directory_uri(); ?>/planty/image/logo-png" alt="logo">
+</a>
 </div>
 <?php wp_nav_menu( array( 
     'theme_location' => 'main-menu', 
