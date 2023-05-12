@@ -19,7 +19,7 @@ add_action ('after_setup_theme', 'register_footer');
    //pour styliser le lien commander//
 function add_custom_class_to_menu_item( $classes, $item, $args ) {
    // Vérifie si le lien  correspond à celui qu'on veut modifier
-   if ( $item->title == 'Commander' ) {
+   if ( $item->title == '' ) {
        // Ajoute la classe personnalisée au lien de menu
        $classes[] = 'my-custom-menu-item';
    }

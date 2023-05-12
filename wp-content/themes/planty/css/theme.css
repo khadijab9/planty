@@ -21,7 +21,7 @@
 
 .navbar-nav {
     display: flex;
-    background: blue;
+    background:red;
     
 }
 
@@ -34,14 +34,25 @@
 
 }
 
-
-
-.my-custom-menu-item  a{
+/* lien de nav commander */
+.menu-item-20 a{
     color: white;
-;
+    background: #DC9F96;
+    padding: 20px;
+    align-items: center;
+
     
 }
-    
+.menu-navigation-container .menu-item-20 {
+    order: 4;
+}
+
+.menu-item-20 a:hover{
+    background: #C02E44;
+    padding: 20px;
+}
+
+/*footer*/
 
 #footer a{
     text-decoration: none;
@@ -81,11 +92,33 @@
     
 }
 
+/* quantité */
+.containerCommand{
+    display: flex;
+}
+
+.containerCommand    .input-quantity{
+    padding: 30px 10px 30px 10px;
+    width: 60%;
+    margin-top: -13px;
+    
+}
+
+.buttonOk{
+
+    
+}
+.containerCommand{
+    width: 100%;
+    background: red;
+}
 /* wp cf7 formulaire de commande */
 .wpcf7 .container-form {
     display: flex;
     color: white;
     justify-content: space-around;
+    margin: 0px;
+    
 
 
 }  
@@ -94,15 +127,21 @@
     font-size: 35px;
     margin-bottom: 40px ;
     font-weight: bold;
+
 }
 
 .wpcf7 .container-form .bloc1 {
     width: 40%;
+  
+    
    
 }
 .wpcf7 .container-form .bloc2 {
     width: 40%;
+  
 } 
+
+
 
 .wpcf7 .container-form .bloc1 .bloc2{
     border: 4px white;
@@ -123,17 +162,16 @@
 @media (max-width: 900px){
     .navbar-nav {
     
-    
-    
-    
-    
-    padding: 15px;
-    
-    
+    padding: 20px;
 }
 
 .menu-navigation-container  a{
 
+}
+
+.menu-item-20 a{
+    padding: 20px;
+    align-items: center;
 }
 
 .logo-image{
@@ -155,21 +193,24 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    
+
+}
+
+.menu-navigation-container ul a{
+    margin: 30px;
+    align-items: center;
+    display: flex;
+  
+    padding: 0px;
 
 }
 
 
-.menu-item-home a{
-    margin-left: 28px !important;}
-
-    .navbar-nav a{
-        
-        margin: 30px 0 0 20;
                
         
 
-    }
+    
 
     .my-custom-menu-item  a{
         
