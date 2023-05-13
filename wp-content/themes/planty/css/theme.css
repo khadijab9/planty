@@ -21,7 +21,7 @@
 
 .navbar-nav {
     display: flex;
-    background:red;
+    
     
 }
 
@@ -29,6 +29,8 @@
     text-decoration: none;
     color: black;
     margin: 25px;
+    background:C9F96;
+    padding: px;
    
 
 
@@ -40,6 +42,7 @@
     background: #DC9F96;
     padding: 20px;
     align-items: center;
+    margin-right: 0px;
 
     
 }
@@ -161,7 +164,10 @@
 
 @media (max-width: 900px){
     .navbar-nav {
-    
+    padding: 20px;
+}
+
+.navbar-nav a {
     padding: 20px;
 }
 
@@ -172,6 +178,8 @@
 .menu-item-20 a{
     padding: 20px;
     align-items: center;
+    background: #DC9F96;
+    padding: 20px;
 }
 
 .logo-image{
@@ -191,18 +199,18 @@
 .menu-navigation-container ul {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     
 
 }
 
 .menu-navigation-container ul a{
-    margin: 30px;
+    margin: 10px;
     align-items: center;
     display: flex;
-  
-    padding: 0px;
+   
+
 
 }
 
