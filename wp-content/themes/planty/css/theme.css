@@ -116,6 +116,15 @@
     margin:0 ;
 }
 
+.containerQuantity .buttons {
+    display: flex;
+
+}
+
+.buttons {
+    flex-direction: column;
+    margin-right: 20px;
+}
 
     
 
