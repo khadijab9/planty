@@ -74,6 +74,7 @@
     padding-bottom: 35px;
     font-size: 25px;
     
+    
 }
 
 .wpcf7 .wpcf7-form-control {
@@ -85,36 +86,40 @@
     
 }
 
-.wpcf7 .wpcf7-submit {
+.wpcf7  .wpcf7-submit {
     padding: 15px 50px 15px 50px;
     background: #E0B9B4;
     color: white;
-    width: 40%;
+    width: 50%;
     margin-top: -10px; 
     text-align: center;
+
     
 }
+
+
+
+
 
 /* quantité */
-.containerCommand{
+.containerQuantity{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
-.containerCommand    .input-quantity{
-    padding: 30px 10px 30px 10px;
-    width: 60%;
-    margin-top: -13px;
+.inputNum {
+    width: 0%;
+}
+
+.buttonSubmit{
+    margin:0 ;
+}
+
+
     
-}
 
-.buttonOk{
 
-    
-}
-.containerCommand{
-    width: 100%;
-    background: red;
-}
 /* wp cf7 formulaire de commande */
 .wpcf7 .container-form {
     display: flex;
