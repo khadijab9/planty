@@ -197,7 +197,6 @@
     justify-content: center;
     margin-top: 50px;
     
-    
 }
 
 
@@ -236,42 +235,41 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    
-
 }
 
 .menu-navigation-container ul a{
     margin: 10px;
     align-items: center;
     display: flex;
-   
-
 
 }
 
 /*form commande */
 .wpcf7 .container-form h2{
     font-size: 30px;
-
-
 }
 
 .wpcf7 .container-form {
     flex-wrap: wrap;
-    
 }
 
 .wpcf7 .container-form  .bloc1{
     width: 100%;
     border: none;
-    padding: 0px;
-    
+    padding: 0px; 
 }
 
 .wpcf7 .container-form  .bloc2{
     width: 100%;
     padding: 0px;
 }
+
+/* Section quantité */
+.inputQuantity {
+    width:120px;
+
+    
+  }
 
 
                
