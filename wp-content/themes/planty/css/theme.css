@@ -103,9 +103,7 @@
 /* quantité */
 .container-quantity {
     display: flex;
-    position: absolute;
-    z-index: ;
-    
+    position: absolute; 
 
              
 }
@@ -115,7 +113,6 @@
     padding: 0px;
     margin: 0px;
     text-align: center;
-    position: ;
     height: 100px;
     border-radius: 10px;
     
@@ -173,6 +170,11 @@
 
 .wpcf7 .container-form .bloc1 .bloc2{
     border: 4px white;
+}
+
+.wpsubmit {
+    display: flex;
+    justify-content: center;
 }
 
 .wpcf7 .wpsubmit{
