@@ -73,7 +73,7 @@
 .wpcf7 p {
     padding-bottom: 35px;
     font-size: 25px;
-    
+   
     
 }
 
@@ -83,22 +83,21 @@
     border: none;
     border-radius: 5px;
     width: 100%;
-    
+}
+
+.wpsub {
+    display: flex;
+    justify-content: center;  
+
 }
 
 .wpcf7  .wpcf7-submit {
-    padding: 15px 50px 15px 50px;
+    padding: 20px 40px 25px 40px;
     background: #E0B9B4;
     color: white;
-    width: 50%;
     margin-top: -10px; 
     text-align: center;
-
-    
 }
-
-
-
 
 
 /* quantité */
@@ -129,11 +128,13 @@
 }
 
 .buttons .wpcf7-form-control{
-    padding: 10px;
+    padding: 0px;
     background:#DC9F96 ;
-    position: ;
-    height: 40px;
+    height: 50px;
     border-radius: 0 10px 10px 0;
+    position: absolute;
+    left: 80px;
+    top: 10px;
     
 
 }
@@ -178,15 +179,14 @@
     padding: 15px 30px 15px 30px;
 
     text-align: center;
+    justify-content: center;
     
     
 }
 
 /* texte image */
-.elementor-image-box-title {
-    margin-top: -160px;
-    margin-bottom: 100px;
-}
+
+
 
 
 
