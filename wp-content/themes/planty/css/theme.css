@@ -109,11 +109,11 @@
   }
   
   .inputQuantity {
-    width:130px;
+    width:120px;
     margin:0px;
     padding: 0px;
     border: none; 
-    border-radius: 5px 5px 5px 5px;
+    border-radius: 10px 10px 10px 10px;
     text-align: center;
     padding-right: 40px;
 
@@ -128,17 +128,18 @@
     color: white;
     
     margin-bottom: 1px;
-    margin-top: 1px;
+    margin-top: 0px;
 
 
   }
 
   .button1{
-    border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 10px 0px 0px;
   }
 
   .button2{
-    border-radius: 0px 0px 5px 0px;
+    border-radius: 0px 0px 10px 0px;
+    margin-bottom: 2px;
 
   }
   .containerButton{
@@ -157,6 +158,8 @@
     color: white;
     justify-content: space-around;
     margin: 0px;
+    
+    
 }  
 
 .wpcf7 .container-form h2{
@@ -169,16 +172,18 @@
     width: 50%;
     border-right: 1px solid white ;
     padding-right: 50px;
-   
+    
 }
 .wpcf7 .container-form .bloc2 {
     width: 50%;
     padding-left: 50px;
+    
   
 } 
 
 .wpcf7 .container-form .bloc1 .bloc2{
     border: 4px white;
+    
 }
 
 .wpsubmit {
@@ -195,11 +200,6 @@
     
 }
 
-/* texte image */
-
-
-
-
 
 @media (max-width: 900px){
     .navbar-nav {
@@ -208,10 +208,6 @@
 
 .navbar-nav a {
     padding: 20px;
-}
-
-.menu-navigation-container  a{
-
 }
 
 .menu-item-20 a{
@@ -253,22 +249,37 @@
 
 }
 
+/*form commande */
+.wpcf7 .container-form h2{
+    font-size: 30px;
+
+
+}
+
+.wpcf7 .container-form {
+    flex-wrap: wrap;
+    
+}
+
+.wpcf7 .container-form  .bloc1{
+    width: 100%;
+    border: none;
+    padding: 0px;
+    
+}
+
+.wpcf7 .container-form  .bloc2{
+    width: 100%;
+    padding: 0px;
+}
+
 
                
         
 
     
 
-    .my-custom-menu-item  a{
-        
-        padding-top: 10px;
-        padding-bottom: 10px;
-    
-    
-            }
-            .my-custom-menu-item{
-                padding-top: px;
-            }
+  
         
 }
 
