@@ -101,40 +101,54 @@
 
 
 /* quantité */
-.container-quantity {
+.containerQuantity{
     display: flex;
-    position: absolute; 
-
-             
-}
-
- .inputNumber  .wpcf7-form-control {
-    width: 50%;
+    height: 80px;
+    
+    
+  }
+  
+  .inputQuantity {
+    width:130px;
+    margin:0px;
     padding: 0px;
-    margin: 0px;
+    border: none; 
+    border-radius: 5px 5px 5px 5px;
     text-align: center;
-    height: 100px;
-    border-radius: 10px;
+    padding-right: 40px;
+
     
+  }
+  
+  button {
+    height:80%;
+    width: 40px;
+    background: #DC9F96;
+    border: none;
+    color: white;
     
-}
+    margin-bottom: 1px;
+    margin-top: 1px;
 
-.inputNumber .buttons {
 
+  }
 
-}
+  .button1{
+    border-radius: 0px 5px 0px 0px;
+  }
 
-.buttons .wpcf7-form-control{
-    padding: 0px;
-    background:#DC9F96 ;
-    height: 50px;
-    border-radius: 0 10px 10px 0;
-    position: absolute;
-    left: 80px;
-    top: 10px;
-    
+  .button2{
+    border-radius: 0px 0px 5px 0px;
 
-}
+  }
+  .containerButton{
+    flex-direction: column;
+    display: flex;
+    margin-left: -40px;
+    border-radius: 0px 10px 10px 0px;
+    height: 82px;
+
+  }
 
 
 /* wp cf7 formulaire de commande */
@@ -143,30 +157,25 @@
     color: white;
     justify-content: space-around;
     margin: 0px;
-    
-
-
 }  
 
 .wpcf7 .container-form h2{
     font-size: 35px;
     margin-bottom: 40px ;
     font-weight: bold;
-
 }
 
 .wpcf7 .container-form .bloc1 {
-    width: 40%;
-  
-    
+    width: 50%;
+    border-right: 1px solid white ;
+    padding-right: 50px;
    
 }
 .wpcf7 .container-form .bloc2 {
-    width: 40%;
+    width: 50%;
+    padding-left: 50px;
   
 } 
-
-
 
 .wpcf7 .container-form .bloc1 .bloc2{
     border: 4px white;
@@ -179,9 +188,9 @@
 
 .wpcf7 .wpsubmit{
     padding: 15px 30px 15px 30px;
-
     text-align: center;
     justify-content: center;
+    margin-top: 50px;
     
     
 }

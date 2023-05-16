@@ -16,7 +16,15 @@
 <div class=logo-image> 
 
 <a href="<?php echo home_url();?>" >
-<img id=logo src="<?php echo get_template_directory_uri(); ?>/planty/image/logo-png" alt="logo">
+<?php
+// check to see if the logo exists and add it to the page
+if ( get_theme_mod( 'your_theme_logo' ) ) : ?>
+<img  id='logo' src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
+<?php // add a fallback if the logo doesn't exist
+else : ?>
+<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
+<?php endif; ?>
+
 </a>
 </div>
 <?php wp_nav_menu( array( 
