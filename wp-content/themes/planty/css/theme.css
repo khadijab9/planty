@@ -101,55 +101,62 @@
 
 
 /* quantité */
+.i-con-inner .containerQuantity{
+    flex-wrap: wrap;
+}
+
 .containerQuantity{
-    display: flex;
-    height: 80px;
-    
-    
-  }
+  display: flex;
+  height: 90px;
   
-  .inputQuantity {
-    width:120px;
-    margin:0px;
-    padding: 0px;
-    border: none; 
-    border-radius: 10px 10px 10px 10px;
-    text-align: center;
-    padding-right: 40px;
-
-    
-  }
   
-  button {
-    height:80%;
-    width: 40px;
-    background: #DC9F96;
-    border: none;
-    color: white;
-    
-    margin-bottom: 1px;
-    margin-top: 0px;
+  
+}
 
+.inputQuantity {
+  width:45%;
+  text-align: center;
+  margin:0px;
+  padding :0px; 
+  border-radius: 10px;  
+  background:;
+  border: none;
+  padding-right: 40px;
+  
+}
 
-  }
+.buttonOK button {
+  height:90px;
+  background : #E0B9B4;
+  border: none;
+  border-radius:px;
+  width: 150px;
+  border-radius: 10px;
+  margin-left: 10px;
+}
 
-  .button1{
-    border-radius: 0px 10px 0px 0px;
-  }
+.button1{
+  border-radius: 0px 10px 0px 0px;
+  padding-left:20px;
+  padding-right:20px;
+  height: 50px;
+  border: none;
+  background: #DC9F96;
+  margin-bottom: 1px
+}
+.button2{
+  border-radius:0px 0px 10px 0px;
+  height: 50px;
+  border: none;
+  background:#DC9F96;
+}
 
-  .button2{
-    border-radius: 0px 0px 10px 0px;
-    margin-bottom: 2px;
-
-  }
-  .containerButton{
-    flex-direction: column;
-    display: flex;
-    margin-left: -40px;
-    border-radius: 0px 10px 10px 0px;
-    height: 82px;
-
-  }
+.containerButton{
+  flex-direction: column;
+  display: flex;
+  margin-left:-47px;
+ 
+}
 
 
 /* wp cf7 formulaire de commande */
@@ -264,23 +271,54 @@
     padding: 0px;
 }
 
-/* Section quantité */
-.inputQuantity {
-    width:120px;
+
 
     
   }
 
 
-               
+  @media (max-width: 1024px){
+    .buttonOK button{
+        width: 280%;
         
+
+    }
+
+    .inputQuantity {
+        flex-wrap: wrap;
+
+    }
+
 
     
-
-  
-        
 }
 
+@media (max-width: 890px){
+    .buttonOK button{
+        width: 210%;
+        flex-wrap: wrap;
+
+    }
+
+}
+
+  @media (max-width: 700px){
+    .inputQuantity{
+        margin-right: 0px;
+        width: 35%;
+        padding-left:10px ;
+        margin-left:35px;
+    }
+
+    .buttonOK button{
+        width: 540%;
+    }}
+
+@media (max-width:500px){
+    .inputQuantity
+
+}
+  
 
 
 
