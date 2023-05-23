@@ -29,8 +29,8 @@
     text-decoration: none;
     color: black;
     margin: 25px;
-    background:C9F96;
-    padding: px;
+    
+    
    
 
 
@@ -101,60 +101,68 @@
 
 
 /* quantité */
-.i-con-inner .containerQuantity{
-    flex-wrap: wrap;
-}
 
 .containerQuantity{
   display: flex;
-  height: 90px;
-  
-  
-  
+  height: 56px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.containerInput{
+    width:45%;
+    display: flex;
 }
 
 .inputQuantity {
-  width:45%;
+  width:60%;
   text-align: center;
   margin:0px;
   padding :0px; 
-  border-radius: 10px;  
-  background:;
+  border-radius: 5px 0 0 5px;  
   border: none;
-  padding-right: 40px;
+  height: 56px;
+}
+
+.buttonOK{
+    width: 50%;
+}
+
+
+.buttonOK button {
+  height:56px;
+  background : #E0B9B4;
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 0px;
+  color: white;
   
 }
 
-.buttonOK button {
-  height:90px;
-  background : #E0B9B4;
-  border: none;
-  border-radius:px;
-  width: 150px;
-  border-radius: 10px;
-  margin-left: 10px;
-}
-
 .button1{
-  border-radius: 0px 10px 0px 0px;
-  padding-left:20px;
-  padding-right:20px;
-  height: 50px;
+  border-radius: 0px 5px 0px 0px;
+  text-align: center;
+  height: 50%;
   border: none;
   background: #DC9F96;
-  margin-bottom: 1px
+  color: white;
+  border-bottom: 1px solid white;
 }
 .button2{
-  border-radius:0px 0px 10px 0px;
-  height: 50px;
+  border-radius:0px 0px 5px 0px;
+  height: 50%;
   border: none;
+  color: white;
   background:#DC9F96;
 }
 
 .containerButton{
   flex-direction: column;
   display: flex;
-  margin-left:-47px;
+  
+  width: 40%;
  
 }
 
@@ -277,47 +285,22 @@
   }
 
 
-  @media (max-width: 1024px){
-    .buttonOK button{
-        width: 280%;
+  @media (max-width: 800px){
+    .containerQuantity{
+        
         
 
     }
 
-    .inputQuantity {
-        flex-wrap: wrap;
-
-    }
-
-
     
-}
 
-@media (max-width: 890px){
-    .buttonOK button{
-        width: 210%;
-        flex-wrap: wrap;
-
+   
     }
 
-}
 
-  @media (max-width: 700px){
-    .inputQuantity{
-        margin-right: 0px;
-        width: 35%;
-        padding-left:10px ;
-        margin-left:35px;
-    }
+ 
 
-    .buttonOK button{
-        width: 540%;
-    }}
 
-@media (max-width:500px){
-    .inputQuantity
-
-}
   
 
 
