@@ -16,22 +16,8 @@ function register_footer(){
 
 add_action ('after_setup_theme', 'register_footer');
 
-   //pour styliser le lien commander//
-function add_custom_class_to_menu_item( $classes, $item, $args ) {
-   // Vérifie si le lien  correspond à celui qu'on veut modifier
-   if ( $item->title == '' ) {
-       // Ajoute la classe personnalisée au lien de menu
-       $classes[] = 'my-custom-menu-item';
-   }
-   return $classes;
-}
-add_filter( 'nav_menu_css_class', 'add_custom_class_to_menu_item', 10, 3 );
 
 
-
-
-
-//
 add_filter( 'wp_nav_menu_items', 'add_extra_item_to_nav_menu', 10, 2 );
 function add_extra_item_to_nav_menu( $items, $args ) {
    // verifie si l'utilisateur est connecté//

@@ -29,10 +29,11 @@
     text-decoration: none;
     color: black;
     margin: 25px;
-    
-    
-   
 
+}
+
+.navbar-nav a:hover{
+    font-weight: bold;
 
 }
 
@@ -40,19 +41,22 @@
 .menu-item-20 a{
     color: white;
     background: #DC9F96;
-    padding: 20px;
+    padding: 25px;
     align-items: center;
     margin-right: 0px;
+    padding-left: 35px;
+    padding-right: 35px;
 
     
 }
 .menu-navigation-container .menu-item-20 {
-    order: 4;
+    order: 3;
 }
 
 .menu-item-20 a:hover{
     background: #C02E44;
-    padding: 20px;
+    
+    
 }
 
 /*footer*/
@@ -204,6 +208,7 @@
 .wpsubmit {
     display: flex;
     justify-content: center;
+
 }
 
 .wpcf7 .wpsubmit{
@@ -212,10 +217,14 @@
     justify-content: center;
     margin-top: 50px;
     
+    
 }
 
+.wpsubmit .wpcf7-form-control:hover {
+    background: #C02E44;
+}
 
-@media (max-width: 900px){
+@media (max-width: 1024px){
     .navbar-nav {
     padding: 20px;
 }
@@ -279,23 +288,11 @@
     padding: 0px;
 }
 
-
-
     
   }
 
+ 
 
-  @media (max-width: 800px){
-    .containerQuantity{
-        
-        
-
-    }
-
-    
-
-   
-    }
 
 
  
