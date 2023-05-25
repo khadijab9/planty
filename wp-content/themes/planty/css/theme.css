@@ -5,7 +5,7 @@
 }
 
 #logo{
-    height: 30px;
+    height: 35px;
     margin-left: 10px;
 
 
@@ -34,6 +34,7 @@
 
 .navbar-nav a:hover{
     font-weight: bold;
+     
 
 }
 
