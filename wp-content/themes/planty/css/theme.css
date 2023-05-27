@@ -16,26 +16,21 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 15px;
-
 }
 
 .navbar-nav {
-    display: flex;
-    
-    
+    display: flex;    
 }
 
 .navbar-nav a{
     text-decoration: none;
     color: black;
     margin: 25px;
-
 }
 
 .navbar-nav a:hover{
     font-weight: bold;
      
-
 }
 
 /* lien de nav commander */
@@ -46,18 +41,16 @@
     align-items: center;
     margin-right: 0px;
     padding-left: 35px;
-    padding-right: 35px;
-
-    
+    padding-right: 35px; 
 }
+
 .menu-navigation-container .menu-item-20 {
     order: 3;
 }
 
 .menu-item-20 a:hover{
     background: #C02E44;
-    
-    
+      
 }
 
 /*footer*/
@@ -68,8 +61,7 @@
     display: flex;
     justify-content: center;
     padding: 10px ;
-    padding-bottom: 20px;
-    
+    padding-bottom: 20px; 
 }
 
 

@@ -17,20 +17,20 @@
 
 <a href="<?php echo home_url();?>" >
 <?php
-// check to see if the logo exists and add it to the page
+// vérifie si le logo existe et l'ajoute à la page 
 if ( get_theme_mod( 'your_theme_logo' ) ) : ?>
 <img  id='logo' src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
-<?php // add a fallback if the logo doesn't exist
+<?php // Si aucun logo existe,  le titre de site s'affichera en utilisant la fonction bloginfo()
 else : ?>
 <h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 <?php endif; ?>
 
 </a>
-</div>
-<?php wp_nav_menu( array( 
+</div> 
+<?php 
+// affiche un menu de navigation
+wp_nav_menu( array( 
     'theme_location' => 'main-menu', 
-    'link_before' => '', 
-    'link_after' => '' ,
     'menu_class' => 'navbar-nav mr-auto',
     ) )
     ; ?>
