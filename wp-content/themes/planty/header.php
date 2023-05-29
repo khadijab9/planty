@@ -15,9 +15,10 @@
 <nav class=nav id="menu" role="navigation" itemscope itemtype="https://schema.org/SiteNavigationElement">
 <div class=logo-image> 
 
+<!-- revnoi à l'url de la page d'accueil du site -->
 <a href="<?php echo home_url();?>" >
 <?php
-// vérifie si le logo existe et l'ajoute à la page 
+// vérifie si le logo a été défini sur le customizer wp et l'ajoute à la page 
 if ( get_theme_mod( 'your_theme_logo' ) ) : ?>
 <img  id='logo' src="<?php echo get_theme_mod( 'your_theme_logo' ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" >
 <?php // Si aucun logo existe,  le titre de site s'affichera en utilisant la fonction bloginfo()

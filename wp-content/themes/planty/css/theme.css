@@ -7,15 +7,18 @@
 #logo{
     height: 35px;
     margin-left: 10px;
-
-
 }
 
 #menu{
+
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 15px;
+    margin-top: -5px;
+    height: 80px;
+    margin-bottom: -19px;
+
+
 }
 
 .navbar-nav {
@@ -26,11 +29,11 @@
     text-decoration: none;
     color: black;
     margin: 25px;
+    
 }
 
 .navbar-nav a:hover{
     font-weight: bold;
-     
 }
 
 /* lien de nav commander */
@@ -41,7 +44,8 @@
     align-items: center;
     margin-right: 0px;
     padding-left: 35px;
-    padding-right: 35px; 
+    padding-right: 35px;
+ 
 }
 
 .menu-navigation-container .menu-item-20 {
@@ -50,7 +54,6 @@
 
 .menu-item-20 a:hover{
     background: #C02E44;
-      
 }
 
 /*footer*/
@@ -70,8 +73,6 @@
 .wpcf7 p {
     padding-bottom: 35px;
     font-size: 25px;
-   
-    
 }
 
 .wpcf7 .wpcf7-form-control {
@@ -85,7 +86,6 @@
 .wpsub {
     display: flex;
     justify-content: center;  
-
 }
 
 .wpcf7  .wpcf7-submit {
@@ -94,16 +94,18 @@
     color: white;
     margin-top: -10px; 
     text-align: center;
+    font-family: 'syne', sans-serif;
+    font-size: 20px;
 }
 
 
 /* quantité */
-
 .containerQuantity{
   display: flex;
   height: 56px;
   width: 100%;
   justify-content: space-between;
+  
 }
 
 .containerInput{
@@ -119,6 +121,8 @@
   border-radius: 5px 0 0 5px;  
   border: none;
   height: 56px;
+  font-family: 'syne', sans-serif;
+  font-size: 20px;
 }
 
 .buttonOK{
@@ -135,7 +139,8 @@
   padding: 0px;
   margin: 0px;
   color: white;
-  
+  font-family: 'syne', sans-serif;
+  font-size: 20px;
 }
 
 .button1{
@@ -146,6 +151,8 @@
   background: #DC9F96;
   color: white;
   border-bottom: 1px solid white;
+  font-family: 'syne', sans-serif;
+  font-size: 20px;
 }
 .button2{
   border-radius:0px 0px 5px 0px;
@@ -153,14 +160,14 @@
   border: none;
   color: white;
   background:#DC9F96;
+  font-family: 'syne', sans-serif;
+  font-size: 20px;
 }
 
 .containerButton{
   flex-direction: column;
   display: flex;
-  
   width: 40%;
- 
 }
 
 
@@ -170,8 +177,6 @@
     color: white;
     justify-content: space-around;
     margin: 0px;
-    
-    
 }  
 
 .wpcf7 .container-form h2{
@@ -189,19 +194,16 @@
 .wpcf7 .container-form .bloc2 {
     width: 50%;
     padding-left: 50px;
-    
-  
 } 
 
 .wpcf7 .container-form .bloc1 .bloc2{
     border: 4px white;
-    
 }
 
 .wpsubmit {
     display: flex;
     justify-content: center;
-
+    
 }
 
 .wpcf7 .wpsubmit{
@@ -210,8 +212,8 @@
     justify-content: center;
     margin-top: 50px;
     
-    
 }
+
 
 .wpsubmit .wpcf7-form-control:hover {
     background: #C02E44;
@@ -220,6 +222,12 @@
 @media (max-width: 1024px){
     .navbar-nav {
     padding: 20px;
+
+}
+
+#menu{
+    height: 300px;
+    margin-bottom: -45px;
 }
 
 .navbar-nav a {
@@ -258,7 +266,6 @@
     margin: 10px;
     align-items: center;
     display: flex;
-
 }
 
 /*form commande */
@@ -279,9 +286,7 @@
 .wpcf7 .container-form  .bloc2{
     width: 100%;
     padding: 0px;
-}
-
-    
+}   
   }
 
  
