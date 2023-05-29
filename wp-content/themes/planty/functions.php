@@ -45,4 +45,6 @@ function your_theme_new_customizer_settings($wp_customize) {
    }
    add_action('customize_register', 'your_theme_new_customizer_settings');
 
+
+
   
